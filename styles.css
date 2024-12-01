@@ -1,0 +1,116 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #a61515;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+
+}
+header h3 {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Main Styling */
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Article Styling */
+article {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+article p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+
+}
+
+article ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+/* Aside Styling */
+aside {
+    flex: 1;
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+aside p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
